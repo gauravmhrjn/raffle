@@ -52,6 +52,13 @@ Seeding is handled by `DatabaseSeeder`, which populate demo users, products, and
 - **`ProductSeeder`**
 - **`RaffleEntrySeeder`**
 
+Demo user after successful seeding:
+
+```bash
+user@example.com
+password
+```
+
 ---
 
 ## API endpoints
