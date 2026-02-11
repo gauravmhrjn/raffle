@@ -17,6 +17,7 @@ php artisan key:generate
 echo ' '
 echo 'MIGRATING FRESH DATABASE'
 echo '================================================================================'
+touch database/database.sqlite
 php artisan migrate:fresh
 echo ' '
 echo 'SEEDING DEMO DATA INTO DATABASE'
