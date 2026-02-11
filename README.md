@@ -17,8 +17,8 @@ This document covers **setup**, **API endpoints**, **console commands**, and **t
     1. Clone the repository:
 
         ```bash
-        git clone <your-clone-url> raffle-ugle
-        cd raffle-ugle
+        git clone https://github.com/gauravmhrjn/raffle.git
+        cd raffle
         ```
 
     2. Quick setup script\*\*
