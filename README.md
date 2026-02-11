@@ -155,7 +155,10 @@ Always call them with:
         php artisan app:start-raffle
         ```
     - **Description**: Starts the raffle process by delegating to `StartRaffleAction` class.
-
+    - Since the raffle process is based on queues and jobs, we will need to open and keep running the following artisan command on a new terminal to root directory.
+      ```bash
+      php artisan queue:work
+      ```
 ---
 
 ## Testing
